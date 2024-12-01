@@ -1,0 +1,1078 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  height:7770px;
+  position: relative;
+  font-family: 'poppins',sans-serif;
+  overflow-x:hidden; 
+}
+.header{
+  width: 100%;
+  height: 40px;
+  background-color:rgba(106, 130, 63, 0.737);
+ 
+  top: 0;
+z-index: 20;
+position: absolute;
+position: fixed;
+  
+}
+/* ******** */
+.search-home{
+  position: relative;
+
+}
+
+.search {
+  width: 200px;
+  border: 0;
+  border-radius: 11px;
+  height: 24px;
+  margin: 8px   100px; 
+  float: left;
+  position: absolute;
+ 
+}
+
+.search-home i{
+position: absolute;
+float: left;
+color: #000;
+height: 16px;
+margin: 13px   110px; 
+z-index: 25;
+}
+
+/* ****** */
+/* home */
+.icone-container{
+
+
+  position: absolute;
+  z-index: 22;
+  display: inline-block;
+
+margin: 5 0;
+margin-left: 40px;
+}
+.icone-container .home-icone{
+  color: whitesmoke;
+  font-size: 30px;
+
+}
+/* **** */
+
+.list{
+  list-style: none;
+float: right;
+margin-right: 20px;
+}
+.list li {
+  display: inline-block;
+margin: 10px 8px;
+}
+.list li a{
+  font-size: 17px;
+  position: relative;
+ text-decoration: none;
+ color: white;
+}
+/* ***************************************************************************************** */
+ .home{
+  position: relative;
+   width: 100%;
+   height: 100vh;
+   background-image: url(../images/pngtree-interior-mockup-green-wall-with-gray-armchair-and-decor-in-living-image_15621974.jpg);
+   background-size: cover;
+  
+ }
+ .home-content {
+  width: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);  
+text-align: center;  
+margin-top: 30px;
+ }
+                    
+ .home-title{
+   text-transform: uppercase;
+   font-size: 30px;
+   color: whitesmoke;
+   font-weight: 700;
+   letter-spacing: 2px;
+
+ }
+.home-p1{
+  text-transform: capitalize;
+  font-size: 18px;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+.home-btn{
+  width: 90px;
+  height: 33px;
+  border: 0;
+  border-radius: 7px;
+  text-transform: capitalize;
+cursor: pointer;
+font-size:16px; 
+margin: 10px 5px;
+}
+.home-btn2{
+background-color: darkolivegreen;
+color: white;
+}
+ 
+.home-btn:hover{
+  opacity: 0.6;
+} 
+
+.list li a:after{
+content: " ";
+position: absolute;
+
+width: 0;
+height: 0;
+
+bottom: -3px;
+left: 0;
+
+background-color: white;
+transition: 0.3s;
+
+}
+.list li a:focus:after{
+  width: 100%;
+  height: 2px;
+  
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/*                                   السكشن الثانى                           */
+.clinic-container{
+width: 85%;
+height: 100vh;
+}
+
+.clinic-parent{
+  overflow: auto;
+height: 100vh;
+
+}
+
+.clinic-content{
+border: 2px solid rgb(23, 72, 96);
+width: 29%;
+height: 200px;
+float: left;
+margin-left: auto;
+border-radius: 11px;
+position: relative;
+}
+.clinic2{
+margin: 0 5%;
+}
+.clinic-container{
+margin: auto;
+}
+.clinic-title{
+font-size: 26px;
+font-weight: 800;
+text-align: center;
+margin-top: 60px;
+text-transform: capitalize;
+margin-bottom:70px; 
+}
+.clinic-line{
+width: 90px;
+height: 3px;
+background-color: rgb(41, 95, 122);
+margin: auto;
+margin-top: -65px;
+margin-bottom: 100px;
+
+}
+
+.i1{
+  font-size: 28px;
+  color: rgb(21, 73, 147);
+  margin-left: 40%;
+  margin-top: 10px;
+}
+.i2{
+  font-size: 28px;
+  color: #dc3545;
+  margin-left: 40%;
+  margin-top: 10px;
+}
+.i3{
+  font-size: 28px;
+  color:rgb(240, 176, 58); 
+  margin-left: 40%;
+  margin-top: 10px;
+}
+.clinic-p{
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: rgb(68, 67, 67);
+ 
+}
+.clinic-title1{
+  text-align: center;
+  text-transform: capitalize;
+}
+.clinic-content a{
+  text-decoration: none;
+  margin-left: 35%;
+  color:rgb(23, 72, 96);
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.clinic-content:after{
+content: "";
+position: absolute;
+
+width: 0;
+height: 0;
+
+
+top: 0;
+left: 0;
+
+border-radius: 11px;
+background-color: rgb(80, 136, 164);
+transition: 0.8s;
+z-index: -2;
+}
+.clinic-content:hover::after{
+  width: 100%;
+  height: 100%;
+opacity: .6;
+}
+.clinic-content:hover .clinic-title1{
+  color: white;
+} 
+.clinic-content:hover .clinic-p{
+  color: #000;
+}
+/* ********************************************************************************************* */
+/*                                             السيكشن التالت                                                 */
+.work-container{
+  width: 100%;
+  margin: auto;
+  background-color: rgba(206, 225, 206, 0.5);
+  height: 100vh;
+  }
+.work-title{
+
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 20px 0px;
+  
+ }
+.work-line{
+  width: 90px;
+  height: 4px;
+  background-color: rgb(137, 182, 221);
+  margin: auto;
+ margin-bottom: 50px;
+ margin-top: -20px;
+}
+.work-parent1{
+  width: 80%;
+  height: 100vh;
+  overflow: auto;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.work-image1{
+  position: relative;
+  width: 26%;
+float: left;
+margin: auto;
+
+}
+.work-image1 img{
+  width: 190px;
+  height: 200px;
+  margin-left: 125px;
+}
+
+.work-overlay2{
+  margin-top: 30px;
+}
+.work-overlay{
+  position: absolute;
+  top: 0;
+  width:190px;
+  height: 100%;
+  background-color: rgb(0, 0, 0,0.5);
+  margin-left: 125px;
+  visibility: hidden;
+  }
+.work-image1 .img4,.img5,.img6{
+  margin-top: 30px;
+}
+.work-overlay2{
+   height: 200px;
+  margin-top: 30px;
+}
+.work-overlay h2{
+  text-transform: capitalize;
+  color: aliceblue;
+  font-size: 19px;
+  margin-top: 100px;
+}
+.work-overlay p{
+  text-transform: capitalize;
+  color: rgb(247, 239, 239);
+  margin: 10px 0px;
+  font-size: 19px;
+}
+.work-overlay i{
+  color: rgb(167, 165, 165);
+  background-color: aliceblue;
+  font-size: 18px;
+  border-radius: 3px; 
+}
+.work-overlay .i11{
+color: #ee3d4e;
+margin-right: 5px;
+}
+
+
+.work-overlay .i12{
+  color: #76a7e2;
+  margin-right: 5px;
+  }
+
+
+
+.work-image1:hover .work-overlay{
+    visibility: visible;
+    
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                                  السيكشن الرابع                    */
+.offer-container{
+  width: 91%;
+  margin: auto;
+  height: 100vh;
+}
+.offer-title{
+
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 30px 0px;
+  
+ }
+.offer-line{
+  width: 100px;
+  height:4px;
+  background-color:rgb(80, 136, 164);;
+  margin: auto;
+ margin-bottom: 50px;
+ margin-top: -20px;
+}
+.offer-parent1{
+  margin: auto;
+  overflow: auto;
+  margin-left: 1%;
+}
+.offer-parent2{
+   overflow: auto;
+  margin-top: 4%;
+  margin-left: 1%;
+}
+.offer-content{
+  position: relative;
+  width: 29%;
+  height: 28%;
+border: 2px solid  rgb(80, 136, 164);
+float: left;
+border-radius: 15px;
+
+}
+.offer-content span{
+  color: black;
+  font-size: 30px;
+  text-transform: capitalize;
+
+}
+.offer-content .i7{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+ background-color: rgb(164, 198, 198);
+ margin: 20px 10px;
+}
+.offer-content .i8{
+  color: red;
+  font-size: 30px;
+  margin: 20px 10px;
+}
+.offer-content .i9{
+  color:rgb(30, 128, 214);
+  font-size: 30px;
+  margin: 20px 10px;
+}
+.offer-content .i4{
+  color:rgb(124, 37, 225);
+  font-size: 30px;
+  margin: 20px 10px;
+}
+.offer-content .i5{
+  color:rgb(137, 193, 221);
+  font-size: 30px;
+  margin: 20px 10px;
+}
+.offer-content .i6{
+  color:rgb(93, 54, 221);
+  font-size: 30px;
+  margin: 20px 10px;
+}
+.offer-content p{
+margin-left: 45px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #5b5b5b;
+  text-transform: capitalize;
+}
+.offer-content3,.offer-content2{
+  margin: 0px 5%;
+}
+.offer-content .p1{
+  margin-left: 51px;
+}
+.offer-content .p3{
+  margin-left: 54px;
+}
+.offer-content .p4{
+  margin-left: 53px;
+}
+.offer-content .p5{
+  margin-left: 57px;
+}
+.offer-content .p6{
+  margin-left: 53px;
+}
+.offer-content:after{
+  content: "";
+  position: absolute;
+
+  width: 0;
+  height: 0;
+  
+  top: 0;
+  left: 0;
+
+  background-color: rgb(59, 133, 171);
+  transition: 1s;
+  border-radius: 15px;
+  z-index: -5;
+}
+.offer-content:hover:after{
+  width: 100%;
+  height: 100%;
+  opacity:0.5;
+}
+.offer-content:hover span{
+  color:white;
+}
+.offer-content:hover p{
+  color: black;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* **************السيكشن الخامس ********************************************** */
+.doctor-container{
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+}
+.doctor-image{
+  margin-left:65%;
+  height: 300px;
+ 
+}
+.doctor-circule{
+  border: 1px solid rgb(74, 114, 171);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(74, 114, 171);
+  float: left;
+ 
+}
+.circule{
+overflow: auto;
+margin-top: 20px;
+margin-left: 35%;
+}
+.circule2{
+  margin: 0px 13px;
+}
+.circule1{
+  background-color:  darkolivegreen;
+  border: 2px solid  darkolivegreen;
+}
+.doctor-circule:hover{
+  background-color: darkolivegreen;
+  border: none;
+} 
+.doctor-content{
+  width: 50%;
+  margin-top: -300px;
+}
+.doctor-title{
+
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 30px 0px;
+  
+ }
+.doctor-line{
+ width: 60px;
+ height: 4px;
+ background-color:rgb(74, 114, 171);
+ margin-bottom: 50px;
+ margin-top: -25px;
+}
+.doctor-p1{
+ margin-top: -15px;
+  font-size: 20px;
+  color: #5b5b5b;
+  margin-bottom: 20px;
+}
+.doctor-content li{
+  margin-top: 30px;
+  margin-left: 20px;
+  text-transform: capitalize;
+  font-size:20px;
+  list-style: none;
+}
+.doctor-content i{
+  color: rgb(74, 114, 171);
+  margin-right: 5px;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* *****************السيكشن السادس ********************************************** */
+.room-container{
+  width: 100%;
+  height: 100vh;
+position: relative;
+}
+
+.room-image{
+  position: relative;
+  width: 100%;
+  height: 65vh;
+  background-image: url(../images/photo_14_2011-09-10_13-34-40.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+.room-overlay{
+  width: 100%;
+height: 100%;
+background-color: rgba(0, 0,0,0.4)
+}
+.room-icon{
+position: absolute;
+margin-left: 120px;
+width: 80%;
+top: 30%;
+}
+.room-icon i{
+    margin: 0px 90px;
+  font-size:40px;
+  color: rgba(8, 67, 93, 0.714);
+}
+.room-content{
+  position: absolute;
+  margin-left: 120px;
+  width: 80%;
+  top:37%;
+  }
+  .room-content span{
+    margin: 0px 90px;
+    font-size:18px;
+    color: rgb(221, 221, 213);
+  }
+  .room-content .s15{
+  margin-left: 110px;
+  }
+  .room-content .s154{
+    margin-left: 100px;
+   
+    }
+    .room-content2{
+      position: absolute;
+      margin-left: 120px;
+      width: 90%;
+      top: 40%;
+      }
+      .room-content2 span{
+        margin: 0px 70px;
+        font-size:18px;
+        color: rgb(245, 245, 217);
+      }
+      .room-content2 .sp11{
+        margin-left:40px;
+      }
+      .room-content2 .sp12{
+        margin-left:20px;
+      }
+      /* /////////////////////////////////////////////////// */
+      /* ***************السيكشن السابع ************************* */
+     .table-container{
+       width: 85%;
+       height: 100vh;
+       margin: auto;
+     }
+     .table-title{
+       text-align: center;
+      text-transform: capitalize;
+      font-size: 30px;
+      font-weight: 800;
+      margin: 30px 0px;
+  
+     }
+    .table-line{
+      width: 80px;
+      height:4px;
+      background-color: rgb(32, 102, 137);
+      margin: auto;
+      margin-top:-27px;
+      margin-bottom: 40px;
+    }
+     
+    .table-content{
+      overflow: auto;
+      margin-left: 6%;
+         }
+    .table-item{
+      border: 2px solid  rgb(23, 72, 96);
+      width: 28%;
+      height: 55vh;
+      float: left;
+      border-radius: 10px;
+      position: relative;
+     
+    }
+    .table-item2{
+      margin: 0px 5%;
+    }
+    .table-item h2{
+      position: relative;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 23px;
+      margin-top: 20px;
+     
+    }
+    .table-circule{
+      width: 90px;
+      height: 90px;
+      border: 2px solid   rgb(27, 100, 137);
+      border-radius: 50%;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+    }
+    .table-circule .p1{
+      font-size: 25px;
+      margin-top: 10px;
+      text-align: center;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+    .table-circule span{
+      display: block;
+      font-size: 20px;
+     text-align: center;
+     margin-right: 5px;
+    }
+   .table-circule ~ p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 40px;
+   }
+   .table-item .table-btn{
+     width: 54%;
+     height: 24px;
+     margin-left:23%;
+     margin-top: 10px; 
+     margin-bottom: 10px;
+     border-radius: 8px;
+     border: 2px solid   rgb(23, 72, 96);
+    font-size: 17px;
+    text-transform: capitalize;
+    position: absolute;
+   }
+   .table-item:after{
+     content: " ";
+     position: absolute;
+     
+     width: 100%;
+     height: 0;
+     
+    top: 0;
+    left: 0;
+
+    transition: 1s;
+    background-color:   rgb(48, 119, 154);
+    border-radius: 10px;
+    z-index: -6;
+   }
+   .table-item:hover:after{
+     width: 100%;
+     height: 100%;
+     opacity: 0.4;
+   }
+
+   .table-item:hover .table-btn{
+    background-color: white;
+z-index: 17;
+   }
+   .table-item:hover .item-title {
+   color:white;
+     }
+   .table-item:hover .table-circule{
+    border: 3px solid rgb(40, 114, 152);
+   }
+  
+   /* ///////////////////////////////////////////////////////////////////////// */
+   /* **************************sec8السيكشن الثامن  */
+   .sec8-container{
+    width: 100%;
+    height: 100vh;
+  position: relative;
+  }
+  
+  .sec8-image{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-image: url(../images/photo_6_2011-09-10_13-34-40.jpg);
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+  }
+  .sec8-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+  .container-dr1{
+    width: 71%;
+    margin: auto;
+   overflow: auto;
+  }
+  .sec8-dr1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .sec8-dr1 h2{
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 6px;
+  }
+  .sec8-dr1{
+    width: 40%;
+    float: left;
+     }
+     .sec8-dr1 .p1{
+       font-size: 25px;
+       text-transform: capitalize;
+       letter-spacing: 1px;
+       color: rgb(106, 170, 199);
+      
+     }
+     .sec8dr2{
+       margin-left: 17%;
+     }
+     .sec8-dr1 p{
+      font-size:21px;
+      text-transform: capitalize;
+      letter-spacing: 0.5px;
+      color:rgb(14, 12, 12)        
+    }
+    .container-dr1{
+      position: absolute;
+      top: 36%;
+      left:50%;
+      transform: translate(-50%,-50%);
+    }
+    .sec8-info{
+     float: right;
+     margin-right: 30px;
+     margin-top: 15px;
+    }
+    .sec8-content{
+      margin-top: 14px;
+    }
+    .sec8-info .h1{
+      margin-left: 5px;
+    }
+    .sec8-dr11 img{
+      margin-right: 3px;
+    }
+    /* //////////////////////////////////////////////////////////////////////// */
+    /* *********************** team السيكشن التاسع ****************************/
+     .team-container{
+      width: 80%;
+      margin: auto;
+      height: 100vh;
+    }
+    .team-content{
+      width: 100%;
+      overflow: auto;
+
+    }
+    .team-item{
+      position: relative;
+      width: 30%;
+      height: 320px;
+      float: left;
+      background-color: #c7c3c37b;
+      border-radius: 6px;
+    }
+    .team-item2{
+     margin: 0px 5%;
+    }
+    .team-title{
+      text-align: center;
+     text-transform: capitalize;
+     font-size: 30px;
+     font-weight: 800;
+     margin: 30px 0px;
+ 
+    }
+   .team-line{
+     width: 60px;
+     height:4px;
+     background-color: rgb(47, 119, 155);
+     margin: auto;
+     margin-top:-27px;
+     margin-bottom: 40px;
+   }
+   .team-image{
+     position: relative;
+     width:80%;
+    margin: auto;
+       }
+   .team-image img{
+     width: 100%;
+     margin-top:20px;
+   } 
+ .team-overlay{
+  position: absolute;
+background-color: rgba(0, 0, 0,0.3);
+top: 0;
+width: 100%;
+height: 220px;
+margin-top: 20px;
+
+visibility: hidden;
+} 
+ .team-item:hover .team-overlay{
+visibility: visible;
+}
+.team-item:after{
+content: " ";
+position: absolute;
+
+width: 100%;
+height: 0;
+
+top: 0;
+left: 0;
+
+background-color: rgb(95, 143, 167);
+transition: 1s;
+border-radius: 6px;
+}
+.team-item:hover:after{
+width: 100%;
+height: 100%;
+opacity: 0.5;
+} 
+.team-info .info-title,p{
+text-transform: capitalize;
+text-align: center;
+font-size: 20px;
+margin-bottom: 10px;
+margin-top: 8px;
+}
+.team-overlay a{
+  display: block;
+  font-size: 19px;
+ width: 30px;
+ height: 30px;
+ background-color: rgb(52, 116, 149);
+  margin-left: auto;
+}
+.team-overlay  a i{
+  color: white;
+  line-height: 30px;
+  margin-left: 5px;
+}
+.team-item:hover .team-info .info-title{
+color: white;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* *************السيكشن العاشر **************************************************** */
+.news-container{
+  width: 80%;
+  margin: auto;
+}
+.news-title{
+  text-align: center;
+ text-transform: capitalize;
+ font-size: 30px;
+ font-weight: 800;
+ margin: 30px 0px;
+
+}
+.news-line{
+ width:70px;
+ height:4px;
+ background-color: rgb(66, 128, 159);
+ margin: auto;
+ margin-top:-27px;
+ margin-bottom: 40px;
+}
+.news-content{
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+}
+.news-item{
+  position: relative;
+  border: 1px solid rgb(77, 133, 160);
+  border-radius: 6px;
+  width: 30%;
+  float: left;
+}
+.news-item2{
+  margin: 0px 5%;
+}
+.news-image{
+  width: 100%;
+  margin-top: 20px;
+ 
+}
+.news-image img{
+  width: 80%;
+  border-radius: 8px;
+}
+.news-info{
+  margin-top: 15px;
+}
+.news-info a {
+margin-left: 15px;
+}
+.news-info a i{
+  font-size: 17px;
+color: blue;
+}
+.news-info span{
+  font-size: 18px;
+  color: #000;
+  font-weight:550;
+}
+.news-sapeach{
+  margin-top: 18px;
+}
+.news-sapeach p{
+text-transform: lowercase;
+color: rgba(51, 51, 51,0.8);
+margin-bottom: 10px;
+}
+ .news-sapeach a{
+   color: #4c3d85;
+  font-size: 18px;
+ text-decoration: none;
+  margin-bottom: -10px;
+}
+.news-item:after{
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 0;
+  
+  top: 0;
+  left: 0;
+  
+  background-color: rgb(70, 130, 160);
+  transition: .8s;
+  border-radius: 6px;
+  }
+  .news-item:hover:after{
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  } 
+  .news-item:hover .news-title1{
+    color: white;
+  }
+  .news-item:hover .news-sapeach p{
+    color: #000;
+  }
+  /* /////////////////////////////////////////////////////////////////////////// */
+  /* **********sec11 السيكشن الحادى عشر */
+  .sec11-content{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(99, 156, 182,0.5);
+  }
+  .sec11-image {
+       border-radius: 10px;
+    text-align: center;
+  }
+  .sec11-image img{
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .sec11-icon {
+  text-align: center;
+  margin-top: 15px;
+  }
+   .sec11-icon a i{
+    font-size: 24px;
+    color: white;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(101, 155, 182);
+    border-radius: 50%;
+    padding-top: 10px;
+  }
+  .sec11-title{
+    font-size: 18px;
+  }
+  .sec11-icon :hover  i{
+    background-color: rgb(21, 78, 106);
+  }
